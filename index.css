@@ -1,0 +1,323 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(1, 128, 115);
+}
+.header{
+    min-height: 100vh;
+}
+.navbar{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    background-color: cadetblue;
+    position: fixed;
+    width: 100%;
+    height: 3.5rem;
+}
+.navbar ul,li{
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: .7rem;
+}
+.navbar ul,li:hover{
+    color: brown;
+}
+.navbar h1{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: .8rem;
+} 
+.navbar h1>span{
+    color: darkorchid;
+}
+.home-content{
+    position: relative;
+    padding-top: 15%;
+    left: 15%;
+    width: 40%;
+    justify-content: center;
+
+}
+.home-content h1{
+    font-size: 2.6rem;
+    font-weight: 800;
+}
+.home-content h3{
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    color: yellowgreen;
+}
+.home-content p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.home-content .btn{
+    background-color: red;
+    padding: .8rem;
+    border: none;
+    border-radius: 50rem;
+    font-size: .8rem;
+    margin-top: 1rem;
+    margin-left: 30%;
+    font-weight: 600;
+}
+.home-content .btn:hover{
+    background-color: cadetblue;
+}
+.home-sci{
+    width: 170px;
+    bottom: 4rem;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+.home-sci a{
+    position: relative;
+    padding: 20px;
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    height: 10px;
+    width: 10px;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.home-sci a:hover{
+    background-color: brown;
+}
+/*about section*/
+.about-content{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.about-content h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.about-content img{
+    height: 25%;
+    width: 25%;
+    border: 10px solid black;
+    border-radius:50% ;
+    text-align: center;
+    justify-content: center;
+    margin-left: 37%;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+.about-content img:hover{
+    border: 10px solid yellowgreen;
+}
+.about-content h4{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 2rem;
+    display: block;
+}
+.about-content p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+/*education*/
+section.education{
+    min-height: 100vh;
+}
+.education{
+    min-width: 100vh;
+    width: 50%;
+    margin-left: 25%;
+}   
+.education-content{
+    display: flex;
+    border: .2rem solid black;
+    margin-top: 1rem;
+    padding: 1rem;
+    transition: .5s;
+    border-radius: 1rem;
+}
+.education-content:hover{
+    background-color: brown;
+    color: white;
+}
+.my-journey h2{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: blue;
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+}
+.education-content h4{
+    font-size: 1.2rem;
+}
+.education-content p{
+    font-size: 1.1rem;
+}
+.project-content{
+    min-height: 100vh;
+}
+.my-project{
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.project-box{
+    border: 3px solid;
+    display: flex;
+    background-color: brown;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border-radius: 1rem;
+}
+.project{
+    padding: 2rem;
+}
+.project h4,p{
+    margin-top: 10px;
+}
+/*skills*/
+.skills{
+    min-height: 100vh;
+}
+.my-skill{
+    justify-content: center;
+    text-align: center;
+    font-size: 2.54rem;
+    font-weight: 800;
+}
+.my-skill span{
+    color: crimson;
+}
+.coding{
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    width: 50%;
+    font-size: 1.5rem;
+}
+.coding-box{
+    border: 2px solid;
+    width: 30%;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 2rem;
+    background-color: darkmagenta;
+}
+.html-box h5{
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+.box-line{
+    border: 2px solid;
+    padding: 3px;
+    margin: 1rem;
+    border-radius: 1.5rem;
+}
+.box-color{
+    background-color: red;
+    width: 90%;
+    height: .5rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.box-color-css{
+    background-color: red;
+    width: 60%;
+    height: .5rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.box-color-javascript{
+    background-color: red;
+    width: 50%;
+    height: .5rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.box-color-java{
+    background-color: red;
+    width: 1%;
+    height: .5rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.contact{
+    min-height: 100vh;
+}
+.contact-me{
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.form{
+    width: 40%;
+    border: 2px solid;
+    padding: 1rem;
+    justify-content: center;
+    background-color: chartreuse;
+    margin-left: 28%;
+    margin-top: 5%;
+    overflow: hidden;
+    height: 40%;
+}
+.form input{
+    padding: 10px;
+    border: 2px solid;
+    margin: 2px;
+    justify-content: space-around;
+    width: 43%;
+}
+#textarea{
+    width: 96%;
+    border: 2px solid;
+    margin-top: .5rem;
+}
+.btn-box{
+    content: '';
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+.btn{
+    padding: .5rem;
+    border: 2px solid black;
+    border-radius: 15rem;
+    background-color: brown;
+    color: white;
+    width: 6rem;
+    font-size: 1rem;
+}
+.btn:hover{
+    color: black;
+    background-color: blueviolet;
+}
+.footer{
+    background-color: black;
+    color: white;
+    bottom: 0%;
+    margin-top: 16rem;
+    padding: 1rem;
+    text-align: center;
+
+}
